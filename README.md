@@ -141,8 +141,8 @@ python src/run_all.py
 
 ## 👩‍💻 Authors
 
+* PARHAVI G.V
 * N LAHARI
 * AMRUTHA VARSHINI P
-* PARHAVI G.V
 * VEEKSHITHA P
 
