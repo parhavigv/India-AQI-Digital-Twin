@@ -12,6 +12,7 @@ build/
 *.pkl
 *.index
 *.csv
+*.h5
 
 # Virtual environments
 venv/
@@ -41,3 +42,6 @@ desktop.ini
 # Temporary
 *.tmp
 *.log
+
+# Node
+node_modules/

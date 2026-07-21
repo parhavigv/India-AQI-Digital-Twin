@@ -1,0 +1,33 @@
+# ═══════════════════════════════════════════════════════════════
+#  India AQI Digital Twin v6.0 — Requirements
+#  Models: CNN · LSTM · GRU · GNN
+#  Simulators: SimPy · SUMO-py
+#  Install: pip install -r requirements.txt
+# ═══════════════════════════════════════════════════════════════
+
+# Core data science
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# XAI — Explainability
+shap>=0.44.0
+lime>=0.2.0.1
+
+# Simulation
+simpy>=4.1.1
+
+# Visualization & mapping
+matplotlib>=3.7.0
+seaborn>=0.12.0
+folium>=0.14.0
+
+# Async networking
+aiohttp>=3.9.0
+requests>=2.31.0
+
+# Utilities
+rich>=13.0.0
+tqdm>=4.65.0
+joblib>=1.3.0
+python-dotenv>=1.0.0
