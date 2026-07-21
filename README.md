@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI-Driven Air Quality Prediction using Hybrid Digital Twin
 
 <p align="center">
@@ -153,89 +152,11 @@ The framework integrates **SimPy** for industrial emission modeling, **SUMO** fo
 ---
 
 ## Project Structure
-=======
-# 🌍 AI-Driven Air Quality Prediction using Hybrid Digital Twin
-
-## 📌 Overview
-
-This project presents a **Hybrid Digital Twin (HDT) framework** for predicting Air Quality Index (AQI) in smart city environments. It combines **environmental simulations** with **deep learning models** to improve prediction accuracy and real-world adaptability.
-
----
-
-## 🚀 Key Features
-
-* 🔬 Hybrid Digital Twin architecture (Simulation + AI)
-* 🧠 Deep Learning Models:
-
-  * CNN (Spatial features)
-  * LSTM & GRU (Temporal patterns)
-  * GNN (Graph-based spatial relationships)
-* ⚡ Cross-Modal Attention for model fusion
-* 🔄 Bayesian Updating for continuous learning
-* 🔍 Explainable AI using SHAP & LIME
-* 🌆 Smart city AQI forecasting & hotspot detection
-
----
-
-## 🏗️ System Architecture
-
-The system consists of:
-
-1. Data Collection & Preprocessing
-2. Environmental Simulation
-
-   * SimPy (Industrial emissions)
-   * SUMO (Traffic emissions)
-3. Multi-Model Learning (CNN, LSTM, GRU, GNN)
-4. Feature Fusion with Attention
-5. Bayesian Adaptive Learning
-6. Explainability Layer
-
----
-
-## 📊 Dataset
-
-* Source: Central Pollution Control Board (CPCB), Government of India – AQI dataset collected via API
-* Cities: 26 Indian cities
-* Time Period: 2019 – 2023
-* Features:
-
-  * PM2.5, PM10
-  * NO₂, CO, O₃, SO₂
-
----
-
-## 📈 Results
-
-| Model                 | RMSE      | MAE      | R²        |
-| --------------------- | --------- | -------- | --------- |
-| CNN                   | 22.14     | 15.72    | 0.847     |
-| LSTM                  | 17.83     | 12.11    | 0.891     |
-| GRU                   | 16.92     | 11.34    | 0.902     |
-| GNN                   | 15.88     | 10.40    | 0.913     |
-| **Hybrid (Proposed)** | **13.47** | **9.12** | **0.941** |
-
----
-
-## 🛠️ Tech Stack
-
-* Python 3.11
-* PyTorch & PyTorch Geometric
-* SimPy (Simulation)
-* SUMO (Traffic modeling)
-* Scikit-learn
-* SHAP & LIME
-
----
-
-## 📂 Project Structure
->>>>>>> 91c87cf8622d99c174a8278aca99f9c97fccaafa
 
 ```
 aqi-digital-twin-prediction/
 │
 ├── data/
-<<<<<<< HEAD
 │   ├── raw/                        # Original CPCB datasets
 │   └── processed/                  # Cleaned & preprocessed data
 │
@@ -260,32 +181,6 @@ aqi-digital-twin-prediction/
 ├── results/
 │   ├── graphs/                     # Training curves, prediction plots
 │   └── metrics.txt                 # Evaluation metrics
-=======
-│   ├── raw/                  # Original datasets (CPCB, etc.)
-│   ├── processed/            # Cleaned & preprocessed data
-│
-├── notebooks/
-│   ├── data_preprocessing.ipynb
-│   ├── eda_analysis.ipynb
-│   ├── model_training.ipynb
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── simulation.py         # SimPy + SUMO logic
-│   ├── models/
-│   │   ├── cnn.py
-│   │   ├── lstm.py
-│   │   ├── gru.py
-│   │   ├── gnn.py
-│   ├── fusion.py            # cross-modal attention
-│   ├── bayesian_update.py
-│   ├── explainability.py    # SHAP, LIME
-│
-├── results/
-│   ├── graphs/
-│   ├── metrics.txt
-│             
->>>>>>> 91c87cf8622d99c174a8278aca99f9c97fccaafa
 │
 ├── requirements.txt
 └── README.md
@@ -293,7 +188,6 @@ aqi-digital-twin-prediction/
 
 ---
 
-<<<<<<< HEAD
 ## Getting Started
 
 ### Prerequisites
@@ -303,30 +197,21 @@ aqi-digital-twin-prediction/
 - SUMO traffic simulator (for simulation module)
 
 ### Installation
-=======
-## ▶️ How to Run
->>>>>>> 91c87cf8622d99c174a8278aca99f9c97fccaafa
 
 ```bash
-git clone https://github.com/your-username/aqi-digital-twin-prediction.git
-cd aqi-digital-twin-prediction
-<<<<<<< HEAD
+git clone https://github.com/parhavigv/India-AQI-Digital-Twin.git
+cd India-AQI-Digital-Twin
 pip install -r requirements.txt
 ```
 
 ### Running
 
 ```bash
-=======
-
-pip install -r requirements.txt
->>>>>>> 91c87cf8622d99c174a8278aca99f9c97fccaafa
 python src/run_all.py
 ```
 
 ---
 
-<<<<<<< HEAD
 ## Applications
 
 | Domain | Use Case |
@@ -364,30 +249,3 @@ Dayananda Sagar University, Bengaluru
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-=======
-## 🎯 Applications
-
-* Smart city pollution monitoring
-* AQI forecasting & alerts
-* Policy simulation (traffic, industrial control)
-* Environmental decision support
-
----
-
-## 🔮 Future Work
-
-* IoT integration for real-time data
-* Transformer-based models
-* Federated learning across cities
-* Satellite data integration
-
----
-
-## 👩‍💻 Authors
-
-* PARHAVI G.V
-* N LAHARI
-* AMRUTHA VARSHINI P
-* VEEKSHITHA P
-
->>>>>>> 91c87cf8622d99c174a8278aca99f9c97fccaafa
